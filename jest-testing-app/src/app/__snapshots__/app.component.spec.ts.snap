@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should render correctly 1`] = `
+<app-root
+  title={[Function String]}
+  userService={[Function Object]}
+  users={[Function Array]}
+>
+  <h1>
+    
+  </h1><app-submit /><div>
+    <h2>
+      User:
+    </h2>
+    <ul>
+      
+    </ul>
+  </div><router-outlet />
+</app-root>
+`;

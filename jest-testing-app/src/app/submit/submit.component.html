@@ -1,0 +1,9 @@
+<form [formGroup]="userForm" (ngSubmit)="submitUser()">
+  <div class="control-container"> <label for="name">Name:  </label>
+    <input type="text" name="name" formControlName="name" /></div>
+    
+    <div class="control-container"><label for="groesse">Größe: </label>
+      <input type="number" name="groesse" formControlName="groesse" /> </div>
+  <input type="submit" value="Create user" [disabled]="!userForm.valid">
+  
+</form>
